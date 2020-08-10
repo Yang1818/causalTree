@@ -103,6 +103,7 @@ causalTree(SEXP ncat2, SEXP split_Rule2, SEXP bucketnum2, SEXP bucketMax2, SEXP 
     int **ccsplit;
     double scale;
     
+    
     CpTable cp;
 
     ncat = INTEGER(ncat2);
